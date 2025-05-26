@@ -10,7 +10,7 @@ app.secret_key = 'your-secret-key-123'  # Required for session management
 socketio = SocketIO(app)
 
 # Initialize Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="#")
 
 # Store active doctor connections and patient requests
 active_doctors = {}
